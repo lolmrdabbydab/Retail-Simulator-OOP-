@@ -4,6 +4,7 @@
 m = "Update"
 
 help:
+	@echo "To create (.cpp) and (.H) with the same name type: 'make create-FILE_NAME'"
 	@echo "To push all changes with commit message "Update" type: 'make push'"
 	@echo "To push all changes with personal commit message type: 'make push m="Your commit message"'"
 
